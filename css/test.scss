@@ -1052,177 +1052,312 @@ body {
       }
     }
   }
+}
+@media (max-width: 769px) {
+  body {
+    .parallax_wrapper {
+      .projects-section {
+        .projects-container {
+          padding: 15vh;
+          padding-top: 3vw;
+          .flip {
+            margin: 2vh;
+          }
+        }
+      }
+      .experience-section {
+        margin-top: 50vh;
+      }
 
-  @media (max-width: 769px) {
-    body {
-      .parallax_wrapper {
-        .projects-section {
-          .projects-container {
-            padding: 15vh;
-            padding-top: 3vw;
-            .flip {
-              margin: 2vh;
+      .projects-section {
+        margin-top: 40vh;
+      }
+
+      .contact-section {
+        margin-top: 70vh;
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  body {
+    .parallax_wrapper {
+      .welcome-page {
+        padding-top: 30vh;
+        .typewriter {
+          font-size: 3.2vh;
+        }
+        .arrow {
+          margin-top: 30vh;
+        }
+        .indicator {
+          margin-top: 25vh;
+        }
+      }
+
+      #group-1 {
+        .mid_layer {
+          .about-title {
+            font-size: 3vh;
+          }
+          .container {
+            .left-div {
+              // padding-right: 12vw;
+              height: 45vh;
+              width: 100%;
+            }
+
+            .right-div {
+              .about-description {
+                font-size: 1.8vh;
+              }
             }
           }
         }
-        .experience-section {
-          margin-top: 50vh;
+      }
+      .skills-section {
+        margin-top: 35vh;
+        .container {
+          ul {
+            padding-left: 20%;
+          }
+          .first-col,
+          .second-col,
+          .third-col,
+          .fourth-col {
+            margin-bottom: 8vh;
+            // height: 35vh;
+            // margin-top: 2vh;
+          }
         }
+      }
+      .experience-section {
+        margin-top: 75vh;
 
-        .projects-section {
-          margin-top: 40vh;
+        .timeline {
+          &::after {
+            left: 31px;
+          }
+          .container {
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 25px;
+            &::after {
+            }
+            &::before {
+              left: 60px;
+              border: medium solid white;
+              border-width: 10px 10px 10px 0;
+              border-color: transparent white transparent transparent;
+            }
+            .content {
+              h2 {
+                font-size: 5vw;
+              }
+              p {
+                font: 1.5vw;
+              }
+            }
+          }
+          .left {
+            left: 0%;
+            &::before {
+            }
+            &::after {
+              left: 18px;
+            }
+          }
+          .right {
+            left: 0%;
+            &::before {
+            }
+            &::after {
+              left: 18px;
+            }
+          }
         }
+      }
 
-        .contact-section {
-          margin-top: 70vh;
+      .projects-section {
+        margin-top: 60vh;
+        .projects-title {
+          font-size: 3vh;
+        }
+        .projects-container {
+          padding: 0vh;
+          padding-top: 3vw;
+          .flip {
+            margin-left: 2.5vh;
+            margin-top: 2vw;
+            width: 90vw;
+            .back {
+              p {
+                font-size: 1.5vh;
+              }
+            }
+          }
+        }
+      }
+
+      .contact-section {
+        margin-top: 80vh;
+
+        .contact-container {
+          .left-div {
+            input,
+            textarea {
+              width: 90vw;
+              padding: 5px;
+            }
+            textarea {
+              height: 20vh;
+            }
+            .button {
+              width: 90vw;
+            }
+          }
+          .right-div {
+            h2 {
+              font-size: 2vh;
+            }
+            .social-media {
+              a {
+                width: 15%;
+              }
+            }
+          }
         }
       }
     }
   }
-  @media (max-width: 550px) {
-    body {
-      .parallax_wrapper {
-        .welcome-page {
-          padding-top: 30vh;
-          .typewriter {
-            font-size: 3.2vh;
-          }
-          .arrow {
-            margin-top: 30vh;
-          }
-          .indicator {
-            margin-top: 25vh;
-          }
-        }
+}
 
-        #group-1 {
-          .mid_layer {
-            .about-title {
-              font-size: 3vh;
-            }
-            .container {
-              .left-div {
-                // padding-right: 12vw;
-                height: 45vh;
-                width: 100%;
-              }
-
-              .right-div {
-                .about-description {
-                  font-size: 1.6vh;
-                }
-              }
-            }
+@media (max-width: 376px) {
+  body {
+    .parallax_wrapper {
+      #group-1 {
+        .mid_layer {
+          .about-title {
           }
-        }
-        .skills-section {
           .container {
-            ul {
-              padding-left: 20%;
-            }
-            .first-col,
-            .second-col,
-            .third-col,
-            .fourth-col {
-              margin-bottom: 8vh;
-              // height: 35vh;
-              // margin-top: 2vh;
-            }
-          }
-        }
-        .experience-section {
-          margin-top: 75vh;
-
-          .timeline {
-            &::after {
-              left: 31px;
-            }
-            .container {
-              width: 100%;
-              padding-left: 70px;
-              padding-right: 25px;
-              &::after {
-              }
-              &::before {
-                left: 60px;
-                border: medium solid white;
-                border-width: 10px 10px 10px 0;
-                border-color: transparent white transparent transparent;
-              }
-              .content {
-                h2 {
-                  font-size: 5vw;
-                }
-                p {
-                  font: 1.5vw;
-                }
-              }
-            }
-            .left {
-              left: 0%;
-              &::before {
-              }
-              &::after {
-                left: 18px;
-              }
-            }
-            .right {
-              left: 0%;
-              &::before {
-              }
-              &::after {
-                left: 18px;
-              }
-            }
-          }
-        }
-
-        .projects-section {
-          margin-top: 60vh;
-          .projects-title {
-            font-size: 3vh;
-          }
-          .projects-container {
-            padding: 0vh;
-            padding-top: 3vw;
-            .flip {
-              margin-left: 2.5vh;
-              margin-top: 2vw;
-              width: 90vw;
-              .back {
-                p {
-                  font-size: 1.5vh;
-                }
-              }
-            }
-          }
-        }
-
-        .contact-section {
-          margin-top: 80vh;
-
-          .contact-container {
             .left-div {
-              input,
-              textarea {
-                width: 90vw;
-                padding: 5px;
-              }
-              textarea {
-                height: 20vh;
-              }
-              .button {
-                width: 90vw;
+            }
+
+            .right-div {
+              .about-description {
+                font-size: 1.8vh;
               }
             }
-            .right-div {
+          }
+        }
+      }
+      .skills-section {
+        .container {
+          ul {
+            padding-left: 20%;
+          }
+          .first-col,
+          .second-col,
+          .third-col,
+          .fourth-col {
+            margin-bottom: 15vh;
+            // height: 35vh;
+            // margin-top: 2vh;
+          }
+        }
+      }
+      .experience-section {
+        margin-top: 110vh;
+
+        .timeline {
+          &::after {
+            left: 31px;
+          }
+          .container {
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 25px;
+            &::after {
+            }
+            &::before {
+              left: 60px;
+              border: medium solid white;
+              border-width: 10px 10px 10px 0;
+              border-color: transparent white transparent transparent;
+            }
+            .content {
               h2 {
-                font-size: 2vh;
+                font-size: 5vw;
               }
-              .social-media {
-                a {
-                  width: 15%;
-                }
+              p {
+                font: 1.5vw;
+              }
+            }
+          }
+          .left {
+            left: 0%;
+            &::before {
+            }
+            &::after {
+              left: 18px;
+            }
+          }
+          .right {
+            left: 0%;
+            &::before {
+            }
+            &::after {
+              left: 18px;
+            }
+          }
+        }
+      }
+
+      .projects-section {
+        margin-top: 100vh;
+        .projects-title {
+          font-size: 3vh;
+        }
+        .projects-container {
+          padding: 0vh;
+          padding-top: 3vw;
+          .flip {
+            margin-left: 2.5vh;
+            margin-top: 2vw;
+            width: 90vw;
+            .back {
+              p {
+                font-size: 1.9vh;
+              }
+            }
+          }
+        }
+      }
+
+      .contact-section {
+        margin-top: 120vh;
+
+        .contact-container {
+          .left-div {
+            input,
+            textarea {
+              width: 90vw;
+              padding: 5px;
+            }
+            textarea {
+              height: 20vh;
+            }
+            .button {
+              width: 90vw;
+            }
+          }
+          .right-div {
+            h2 {
+              font-size: 2vh;
+            }
+            .social-media {
+              a {
+                width: 15%;
               }
             }
           }

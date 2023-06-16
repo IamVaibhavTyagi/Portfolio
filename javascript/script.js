@@ -1,24 +1,4 @@
 window.onload = function () {
-    lax.init();
-
-    // Add a driver that we use to control our animations
-    lax.addDriver('scrollY', function () {
-        return window.scrollY
-    })
-
-    // Add animation bindings to elements
-    lax.addElements('.selector', {
-        scrollY: {
-            translateX: [
-                ["elInY", "elCenterY", "elOutY"],
-                [0, 'screenWidth/2', 'screenWidth'],
-            ]
-        }
-    }
-    )
-
-
-
     const words = ["\u{1F601} Hello!", "\u{1F9B8} I am Vaibhav Tyagi ", "\u{1F4BB} A Software developer", "\u{1F393} Alumni of UT Dallas", "\u{1F4D7} MS in Computer Science"]; // Array of different words
     let currentWordIndex = 0;
 

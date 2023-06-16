@@ -796,7 +796,7 @@ body .parallax_wrapper #group-2 {
     width: 8%;
   }
 }
-@media (max-width: 821px) and (max-width: 769px) {
+@media (max-width: 769px) {
   body .parallax_wrapper .projects-section .projects-container {
     padding: 15vh;
     padding-top: 3vw;
@@ -814,7 +814,7 @@ body .parallax_wrapper #group-2 {
     margin-top: 70vh;
   }
 }
-@media (max-width: 821px) and (max-width: 550px) {
+@media (max-width: 550px) {
   body .parallax_wrapper .welcome-page {
     padding-top: 30vh;
   }
@@ -835,7 +835,10 @@ body .parallax_wrapper #group-2 {
     width: 100%;
   }
   body .parallax_wrapper #group-1 .mid_layer .container .right-div .about-description {
-    font-size: 1.6vh;
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .skills-section {
+    margin-top: 35vh;
   }
   body .parallax_wrapper .skills-section .container ul {
     padding-left: 20%;
@@ -901,6 +904,93 @@ body .parallax_wrapper #group-2 {
   }
   body .parallax_wrapper .contact-section {
     margin-top: 80vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div input,
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    width: 90vw;
+    padding: 5px;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    height: 20vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div .button {
+    width: 90vw;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div h2 {
+    font-size: 2vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div .social-media a {
+    width: 15%;
+  }
+}
+@media (max-width: 376px) {
+  body .parallax_wrapper #group-1 .mid_layer .container .right-div .about-description {
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .skills-section .container ul {
+    padding-left: 20%;
+  }
+  body .parallax_wrapper .skills-section .container .first-col,
+  body .parallax_wrapper .skills-section .container .second-col,
+  body .parallax_wrapper .skills-section .container .third-col,
+  body .parallax_wrapper .skills-section .container .fourth-col {
+    margin-bottom: 15vh;
+  }
+  body .parallax_wrapper .experience-section {
+    margin-top: 110vh;
+  }
+  body .parallax_wrapper .experience-section .timeline::after {
+    left: 31px;
+  }
+  body .parallax_wrapper .experience-section .timeline .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  body .parallax_wrapper .experience-section .timeline .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content h2 {
+    font-size: 5vw;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content p {
+    font: 1.5vw;
+  }
+  body .parallax_wrapper .experience-section .timeline .left {
+    left: 0%;
+  }
+  body .parallax_wrapper .experience-section .timeline .left::after {
+    left: 18px;
+  }
+  body .parallax_wrapper .experience-section .timeline .right {
+    left: 0%;
+  }
+  body .parallax_wrapper .experience-section .timeline .right::after {
+    left: 18px;
+  }
+  body .parallax_wrapper .projects-section {
+    margin-top: 100vh;
+  }
+  body .parallax_wrapper .projects-section .projects-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding: 0vh;
+    padding-top: 3vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin-left: 2.5vh;
+    margin-top: 2vw;
+    width: 90vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.9vh;
+  }
+  body .parallax_wrapper .contact-section {
+    margin-top: 120vh;
   }
   body .parallax_wrapper .contact-section .contact-container .left-div input,
   body .parallax_wrapper .contact-section .contact-container .left-div textarea {
