@@ -90,11 +90,14 @@ window.onload = function () {
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
 
-        const subject = 'Hi Vaibhav!';
-        const body = 'Message: ' + message + '\n\nName: ' + name + '\nEmail: ' + email;
+        if (name && email && message) {
+            const subject = 'Hi Vaibhav!';
+            const body = 'Message: ' + message + '\n\nName: ' + name + '\nEmail: ' + email;
 
-        const mailtoUrl = `mailto:vaibhavtyagi0808@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = mailtoUrl;
+            const mailtoUrl = `mailto:vaibhavtyagi0808@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = mailtoUrl;
+        }
+
     });
 
 
