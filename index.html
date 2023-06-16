@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css file -->
+    <link rel="stylesheet" href="css\test.css" />
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- javascript file -->
+    <script src="javascript\script.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="/images/apple-touch-icon.png" type="image/png" />
+    <title>Vaibhav Tyagi</title>
+  </head>
+  <body>
+    <a href="#navigation-bar"
+      ><button onclick="topFunction()" id="myBtn" title="Go to top">
+        &#x1F680;
+      </button></a
+    >
+    <div class="parallax_wrapper" id="parallax-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navigation-bar">
+        <a class="navbar-brand" href="#navigation-bar">Vaibhav.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#welcome">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#group-1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#id-skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#id-experience">Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#id-projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#id-contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="slider round"></div>
+                </label>
+                <!-- <em>Enable Dark Mode!</em> -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="parallax_group welcome-page" id="welcome">
+        <h1 class="typewriter" id="typewriter"></h1>
+        <div class="indicator">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="parallax_group about-section" id="group-1">
+        <div class="parallax_layer base_layer">
+          <!-- <div class="about-img grayscale-image">
+           
+          </div> -->
+        </div>
+        <div class="parallax_layer mid_layer">
+          <h1 class="about-title">About Me</h1>
+
+          <div class="container">
+            <div class="left-div">
+              <div class="about-img">
+                <div class="grayscale-image"></div>
+              </div>
+            </div>
+            <div class="right-div">
+              <div class="about-description">
+                <p>
+                  <span class="span-intro" style="font-weight: bold"
+                    >Hey there! I'm Vaibhav Tyagi, a Computer Science graduate
+                    specializing in intelligent systems. I recently completed my
+                    Master's degree from the University of Texas at
+                    Dallas.</span
+                  >
+                  During my studies, I interned at Seekout and Ware2Go, which
+                  greatly enhanced my skills as a software engineer and data
+                  analyst. With two years of experience as a Software Engineer
+                  at Yardi System, Pune, India, I've built a strong foundation
+                  in software development. Besides technology, I have a passion
+                  for photography, hiking, football, and cinema.
+                </p>
+                <p>
+                  I love meeting new people, having great conversations, and
+                  using my skills to solve real-life problems. Let's connect on
+                  social media, and feel free to ask me anything—I'm here to
+                  share and learn together!
+                </p>
+                <a href="VaibhavTyagi_resume.pdf" target="_blank" class="btn-1"
+                  ><button class="button" role="button">
+                    <span class="text">Resume</span>
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax_group skills-section" id="id-skills">
+        <!-- <div class="parallax_layer base_layer"></div> -->
+        <!-- <div class="parallax_layer mid_layer"> -->
+        <h1 class="skills-title">Skills</h1>
+        <div class="container">
+          <div class="first-col">
+            <ul>
+              <h6>Programming languages</h6>
+              <li>
+                <img
+                  src="images\cpp-logo.png"
+                  alt="Skill 1"
+                  class="skill-image"
+                />C++
+              </li>
+              <li>
+                <img
+                  src="images\csharp-logo.png"
+                  alt="Skill 2"
+                  class="skill-image"
+                />C#
+              </li>
+              <li>
+                <img
+                  src="images\python-logo.png"
+                  alt="Skill 3"
+                  class="skill-image"
+                />Python
+              </li>
+              <li>
+                <img
+                  src="images\java-logo.png"
+                  alt="Skill 4"
+                  class="skill-image"
+                />Java
+              </li>
+              <li>
+                <img
+                  src="images\sql-logo.png"
+                  alt="Skill 5"
+                  class="skill-image"
+                />SQL
+              </li>
+            </ul>
+          </div>
+          <div class="second-col">
+            <ul>
+              <h6>Web Development</h6>
+              <li>
+                <img
+                  src="images\django-logo.png"
+                  alt="Skill 6"
+                  class="skill-image"
+                />Django
+              </li>
+              <li>
+                <img
+                  src="images\html-logo.png"
+                  alt="Skill 7"
+                  class="skill-image"
+                />HTML
+              </li>
+              <li>
+                <img
+                  src="images\css-logo.png"
+                  alt="Skill 8"
+                  class="skill-image"
+                />CSS
+              </li>
+              <li>
+                <img
+                  src="images\php-logo.png"
+                  alt="Skill 9"
+                  class="skill-image"
+                />PHP
+              </li>
+              <li>
+                <img
+                  src="images\bootstrap-logo.png"
+                  alt="Skill 10"
+                  class="skill-image"
+                />Bootstrap
+              </li>
+            </ul>
+          </div>
+          <div class="third-col">
+            <ul>
+              <h6>Operating System</h6>
+              <li>
+                <img
+                  src="images\macos-logo.jpg"
+                  alt="Skill 11"
+                  class="skill-image"
+                />Mac OS
+              </li>
+              <li>
+                <img
+                  src="images\windows-logo.png"
+                  alt="Skill 12"
+                  class="skill-image"
+                />Windows
+              </li>
+              <li>
+                <img
+                  src="images\ubuntu-logo.png"
+                  alt="Skill 13"
+                  class="skill-image"
+                />Linux (Ubuntu)
+              </li>
+            </ul>
+            <!-- <ul>
+              <h6>Certifications</h6>
+              <li>'Python Course' from Udemy</li>
+              <li>'Programming with C++' from IIT Kharagpur NPTEL</li>
+            </ul> -->
+          </div>
+          <div class="fourth-col">
+            <ul>
+              <h6>Libraries and Tools</h6>
+              <li>
+                <img
+                  src="images\dotnet-logo.png"
+                  alt="Skill 14"
+                  class="skill-image"
+                />.NET
+              </li>
+              <li>
+                <img
+                  src="images\git-logo.png"
+                  alt="Skill 15"
+                  class="skill-image"
+                />Git
+              </li>
+              <li>
+                <img
+                  src="images\pandas-logo.png"
+                  alt="Skill 16"
+                  class="skill-image"
+                />Pandas
+              </li>
+              <li>
+                <img
+                  src="images\numpy-logo.png"
+                  alt="Skill 17"
+                  class="skill-image"
+                />NumPy
+              </li>
+              <li>
+                <img
+                  src="images\matplot-logo.png"
+                  alt="Skill 18"
+                  class="skill-image"
+                />Matplotlib
+              </li>
+              <li>
+                <img
+                  src="images\scikitlearn-logo.png"
+                  alt="Skill 19"
+                  class="skill-image"
+                />Scikit-Learn
+              </li>
+              <li>
+                <img
+                  src="images\opencv-logo.png"
+                  alt="Skill 20"
+                  class="skill-image"
+                />OpenCV
+              </li>
+              <li>
+                <img
+                  src="images\uipath-logo.png"
+                  alt="Skill 21"
+                  class="skill-image"
+                />UiPath
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+
+      <div class="parallax_group experience-section" id="id-experience">
+        <h1 class="experience-title">Experience</h1>
+        <!-- <div class="container"> -->
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h5>🧑🏽‍💻 Data Analyst Intern</h5>
+              <h6>
+                <img
+                  src="/images/Ware2Go_Logo.jpg"
+                  alt="ware2go-logo"
+                  class="exp-img1"
+                />Ware2Go, Atlanta
+              </h6>
+              <h6>&#128197; Jan 2023 – May 2023</h6>
+              <!-- <p>
+                <ul>
+                  <li>Designed and executed an automation process utilizing UiPath and C# to import data from Softeon to Big Query. This streamlined data integration between multiple platforms, resulting in enhanced accuracy of up to 100% and elimination of data discrepancies.</li>
+                  <li>Successfully reduced data latency from 24 hours to just 30 minutes. This improvement allowed for the generation of more precise reports within the DOMO platform.</li>
+                  <li>Created a customized automation process to compare prices between UPS and other vendors to gather detailed information on differences in rate based on factors like location, weight, and packaging to facilitate improved decision-making.</li>
+                  <li>Effectively analyzed business reports within Domo and extracted valuable insights from Big Query data. Summarized each report functionality to an excel for future reference by the team.</li>
+                </ul>
+              </p> -->
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h5>🧑🏽‍💻 Software Engineer Intern</h5>
+              <h6>
+                <img
+                  src="/images/SeekOut_Logo.jpg"
+                  alt="seekout-logo"
+                  class="exp-img2"
+                />SeekOut, Bellevue
+              </h6>
+              <h6>&#128197; May 2022 – Aug 2022</h6>
+              <!-- <p>
+                <ul>
+                  <li>Executed the data pipeline of the security clearance feature of SeekOut’s Website to refresh the security-clearance-tag map using data of last 1.5 years and approximately 6 million job listings.</li>
+                  <li>Developed a project to validate the schema of security clearance input and output files for each step of the data pipeline and report the user for missing key and invalid data field using C# and .NET framework.</li>
+                  <li>Contributed to confluence by documenting the current infrastructure of the data pipeline and schema validation code for future reference and better understanding of the employees.</li>
+                  <li>Reviewed the current architecture of the security clearance feature and suggested better approaches to the algorithm to improve the speed and accuracy.</li>
+                </ul>              
+              </p> -->
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h5>🧑🏽‍💻 Software Engineer</h5>
+              <h6>
+                <img
+                  src="/images/Yardi_Logo.png"
+                  alt="yardi-logo"
+                  class="exp-img3"
+                />Yardi Systems, India
+              </h6>
+              <h6>&#128197; Aug 2019 - Apr 2021</h6>
+              <!-- <p>
+                <ul>
+                  <li>Maintained Yardi's real estate management database of nearly 20,000 customers by developing complex SQL scripts to fix anomalies and achieve high quality consistent database.</li>
+                  <li>Designed SQL scripts to build reports relating to conversion rate insights, collaborating with 20-25 clients' account managers.</li>
+                  <li>Conducted beta-testing of client's website user interface; analyzed user's feedback and reported bugs, optimizing functioning by 80%.</li>
+                </ul>
+              </p> -->
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h5>&#127891; Master's in Computer Science</h5>
+              <h6>&#127979; University of Texas at Dallas</h6>
+              <h6>&#128197; Aug 2021 - May 2023</h6>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p> -->
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h5>&#127891; BE in Computer Engineering</h5>
+              <h6>&#127979; University of Pune</h6>
+              <h6>&#128197; May 2015 - May 2019</h6>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="exp-1">ware2go</div>
+          <div class="exp-2">seekout</div>
+          <div class="exp-3">yardi</div> -->
+        <!-- </div> -->
+      </div>
+
+      <div class="parallax_group projects-section" id="id-projects">
+        <h1 class="projects-title">Projects</h1>
+        <div class="projects-container">
+          <div class="flip">
+            <div class="front project-1">
+              <h5 class="text-shadow">Library Management System</h5>
+              <h6>Python 3, MySQL, Django, Bootstrap</h6>
+            </div>
+            <div class="back">
+              <!-- <h2>Angular</h2> -->
+              <p>
+                I developed a comprehensive system for librarians that includes
+                book search, check-in/check-out functionality, borrower
+                management, authentication, and fine management features,
+                allowing librarians to efficiently manage the library operations
+                and track fines.
+              </p>
+              <a
+                href="https://github.com/IamVaibhavTyagi/Library-Management-System"
+                target="_blank"
+                ><button class="button fa fa-github">&nbsp;Github</button></a
+              >
+            </div>
+          </div>
+          <div class="flip">
+            <div class="front project-2">
+              <h5 class="text-shadow">Instant Messaging Application</h5>
+              <h6>Java</h6>
+            </div>
+            <div class="back">
+              <!-- <h2>Angular</h2> -->
+              <p>
+                I developed a secure messaging system using Java with AES and
+                RSA encryption algorithms. It includes public key cryptography
+                for authentication, nonce encryption for authenticity
+                verification, and AES 128-bit encryption for message
+                confidentiality.
+              </p>
+              <a
+                href="https://github.com/IamVaibhavTyagi/Instant-Messaging-Application"
+                target="_blank"
+                ><button class="button fa fa-github">&nbsp;Github</button></a
+              >
+            </div>
+          </div>
+          <div class="flip">
+            <div class="front project-3">
+              <h5 class="text-shadow">Real-time Stock Price & Analysis Bot</h5>
+              <h6>Python3, NSEpy, NumPy and Matplotlib</h6>
+            </div>
+            <div class="back">
+              <!-- <h2>Angular</h2> -->
+              <p>
+                Developed a bot to give live price of a National Stock Exchange
+                (NSE) stock upon messaging the stock symbol. Created a technical
+                analysis module giving market performance of a stock using data
+                of last 6 months.
+              </p>
+              <a
+                href="https://github.com/IamVaibhavTyagi/stock-price-analysis-bot"
+                target="_blank"
+                ><button class="button fa fa-github">&nbsp;Github</button></a
+              >
+            </div>
+          </div>
+          <div class="flip">
+            <div class="front project-4">
+              <h5 class="text-shadow">ATM Surveillance</h5>
+              <h6>Java, OpenCV, and SQL</h6>
+            </div>
+            <div class="back">
+              <!-- <h2>Angular</h2> -->
+              <p>
+                I collaborated with a team to develop a CCTV-based monitoring
+                system for restricted areas. The system included an anti-theft
+                module with alarm triggers and notifications to security
+                personnel. Additionally, I implemented a face verification
+                feature to ensure secure transactions.
+              </p>
+              <a
+                href="https://github.com/IamVaibhavTyagi/ATM-Surveillance"
+                target="_blank"
+                ><button class="button fa fa-github">&nbsp;Github</button></a
+              >
+            </div>
+          </div>
+          <div class="flip">
+            <div class="front project-5">
+              <h5 class="text-shadow">Crime Reporting System</h5>
+              <h6>Python3, MySQL, Pandas, and Matplotlib</h6>
+            </div>
+            <div class="back">
+              <!-- <h2>Angular</h2> -->
+              <p>
+                Led a team of 3 to design an application to keep crime reports
+                safe, secure and yield significant insights from the data.
+              </p>
+              <a
+                href="https://github.com/IamVaibhavTyagi/Crime-Reporting-System"
+                target="_blank"
+                ><button class="button fa fa-github">&nbsp;Github</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax_group contact-section" id="id-contact">
+        <h1 class="contact-title">Let's Connect</h1>
+        <div class="contact-container">
+          <div class="left-div">
+            <!-- <h2>Contact Form</h2> -->
+            <form>
+              <div>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email address"
+                  required
+                />
+              </div>
+              <div>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <button class="button" type="submit" id="sendEmailButton">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="right-div">
+            <h2>Contact Information</h2>
+
+            <div class="address">
+              <p>&#128507; Seattle, Washington</p>
+              <p>
+                &#128231;
+                <a href="mailto:vaibhavtyagi0808@gmail.com"
+                  >vaibhavtyagi0808@gmail.com</a
+                >
+              </p>
+              <!-- <p>Phone: 425-246-2234</p> -->
+            </div>
+            <div class="social-media">
+              <a
+                href="https://www.linkedin.com/in/iamvaibhavtyagi/"
+                target="_blank"
+                ><i
+                  class="fa fa-linkedin-square"
+                  style="font-size: 48px; color: #0077b5"
+                ></i
+              ></a>
+              <a href="https://github.com/IamVaibhavTyagi" target="_blank"
+                ><i
+                  class="fa fa-github"
+                  style="font-size: 48px; color: white"
+                ></i
+              ></a>
+              <a href="https://www.instagram.com/vaivaihere/" target="_blank"
+                ><i
+                  class="fa fa-instagram"
+                  style="font-size: 48px; color: #feda75"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-container">
+          <h5>
+            <span class="copyright" style="color: red">&copy;</span> Vaibhav
+            Tyagi
+          </h5>
+          <h6>&#x2705; Last updated June 2023</h6>
+        </div>
+      </div>
+      <!-- <div class="parallax_group" id="group-2">
+        <div class="parallax_layer mid_layer">mid</div>
+        <div class="parallax_layer top_layer">top</div>
+      </div> -->
+
+      <!-- <div class="parallax_group footer-page" id="footer">the end</div> -->
+    </div>
+  </body>
+</html>
