@@ -97,10 +97,22 @@ window.onload = function () {
         window.location.href = mailtoUrl;
     });
 
+
+    // Get specific anchor tags on the page
+    const specificLinks = document.querySelectorAll('a.social-links');
+
+    // Add click event listener to each specific anchor tag
+    specificLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            // Get the URL of the clicked link
+            const url = link.getAttribute('href');
+
+            // Open the link in a new window
+            window.open(url, '_blank');
+        });
+    });
+
 }
-
-
-
-
-
 

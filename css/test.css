@@ -776,6 +776,9 @@ body .parallax_wrapper #group-2 {
   body .parallax_wrapper .projects-section .projects-container .flip {
     margin: 1vw 0.1vw;
   }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.2vh;
+  }
   body .parallax_wrapper .contact-section {
     margin-top: 0vh;
   }
@@ -866,11 +869,11 @@ body .parallax_wrapper #group-2 {
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
-  body .parallax_wrapper .experience-section .timeline .container .content h2 {
-    font-size: 5vw;
+  body .parallax_wrapper .experience-section .timeline .container .content h5 {
+    font-size: 2vh;
   }
-  body .parallax_wrapper .experience-section .timeline .container .content p {
-    font: 1.5vw;
+  body .parallax_wrapper .experience-section .timeline .container .content h6 {
+    font-size: 1.7vh;
   }
   body .parallax_wrapper .experience-section .timeline .left {
     left: 0%;
@@ -939,37 +942,11 @@ body .parallax_wrapper #group-2 {
   body .parallax_wrapper .experience-section {
     margin-top: 110vh;
   }
-  body .parallax_wrapper .experience-section .timeline::after {
-    left: 31px;
+  body .parallax_wrapper .experience-section .timeline .container .content h5 {
+    font-size: 2vh;
   }
-  body .parallax_wrapper .experience-section .timeline .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-  body .parallax_wrapper .experience-section .timeline .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-  body .parallax_wrapper .experience-section .timeline .container .content h2 {
-    font-size: 5vw;
-  }
-  body .parallax_wrapper .experience-section .timeline .container .content p {
-    font: 1.5vw;
-  }
-  body .parallax_wrapper .experience-section .timeline .left {
-    left: 0%;
-  }
-  body .parallax_wrapper .experience-section .timeline .left::after {
-    left: 18px;
-  }
-  body .parallax_wrapper .experience-section .timeline .right {
-    left: 0%;
-  }
-  body .parallax_wrapper .experience-section .timeline .right::after {
-    left: 18px;
+  body .parallax_wrapper .experience-section .timeline .container .content h6 {
+    font-size: 1.7vh;
   }
   body .parallax_wrapper .projects-section {
     margin-top: 100vh;

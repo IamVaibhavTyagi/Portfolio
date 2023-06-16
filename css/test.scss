@@ -771,7 +771,7 @@ body {
   body {
     .parallax_wrapper {
       .experience-section {
-        // margin-top: 5vh;
+        // margin-top: 100vh;
         .experience-title {
         }
         .timeline {
@@ -1020,6 +1020,11 @@ body {
 
           .flip {
             margin: 1vw 0.1vw;
+            .back {
+              p {
+                font-size: 1.2vh;
+              }
+            }
           }
         }
       }
@@ -1151,11 +1156,11 @@ body {
               border-color: transparent white transparent transparent;
             }
             .content {
-              h2 {
-                font-size: 5vw;
+              h5 {
+                font-size: 2vh;
               }
-              p {
-                font: 1.5vw;
+              h6 {
+                font-size: 1.7vh;
               }
             }
           }
@@ -1270,44 +1275,14 @@ body {
         margin-top: 110vh;
 
         .timeline {
-          &::after {
-            left: 31px;
-          }
           .container {
-            width: 100%;
-            padding-left: 70px;
-            padding-right: 25px;
-            &::after {
-            }
-            &::before {
-              left: 60px;
-              border: medium solid white;
-              border-width: 10px 10px 10px 0;
-              border-color: transparent white transparent transparent;
-            }
             .content {
-              h2 {
-                font-size: 5vw;
+              h5 {
+                font-size: 2vh;
               }
-              p {
-                font: 1.5vw;
+              h6 {
+                font-size: 1.7vh;
               }
-            }
-          }
-          .left {
-            left: 0%;
-            &::before {
-            }
-            &::after {
-              left: 18px;
-            }
-          }
-          .right {
-            left: 0%;
-            &::before {
-            }
-            &::after {
-              left: 18px;
             }
           }
         }
