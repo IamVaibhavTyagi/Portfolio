@@ -629,7 +629,16 @@ body .parallax_wrapper .footer .footer-container h6 {
 body .parallax_wrapper #group-2 {
   color: white;
 }
-@media (max-width: 1180px) {
+@media (max-width: 1181px) {
+  body .parallax_wrapper .welcome-page {
+    padding-top: 30vh;
+  }
+  body .parallax_wrapper .welcome-page .typewriter {
+    font-size: 4vh;
+  }
+  body .parallax_wrapper .welcome-page .indicator {
+    margin-top: 20vw;
+  }
   body .parallax_wrapper .experience-section .timeline .container .content h2 {
     font-size: 3vw;
   }
@@ -655,8 +664,60 @@ body .parallax_wrapper #group-2 {
     padding-left: 12.5vw;
     padding-top: 3vw;
   }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.7vh;
+  }
   body .parallax_wrapper .contact-section .right-div .social-media a {
     width: 5%;
+  }
+}
+@media (max-width: 1025px) {
+  body .parallax_wrapper .welcome-page {
+    padding-top: 30vh;
+  }
+  body .parallax_wrapper .welcome-page .typewriter {
+    font-size: 4vh;
+  }
+  body .parallax_wrapper .welcome-page .indicator {
+    margin-top: 20vw;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container {
+    margin-top: 4vh;
+    flex-direction: column;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .left-div,
+  body .parallax_wrapper #group-1 .mid_layer .container .right-div {
+    flex: auto;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .left-div {
+    height: 60vh;
+    width: 100%;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .right-div {
+    padding-top: 2vh;
+    margin-left: 0px;
+  }
+  body .parallax_wrapper .experience-section {
+    margin-top: 5vh;
+  }
+  body .parallax_wrapper .skills-section {
+    margin-top: 45vh;
+  }
+  body .parallax_wrapper .projects-section {
+    margin-top: 70vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding-left: 15vh;
+    padding-top: 3vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin: 1vw 0.1vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .contact-section {
+    margin-top: 45vh;
   }
 }
 @media (max-width: 991px) {
@@ -696,19 +757,41 @@ body .parallax_wrapper #group-2 {
     margin-left: 0px;
   }
   body .parallax_wrapper .skills-section {
-    margin-top: 45vh;
+    margin-top: 25vh;
   }
   body .parallax_wrapper .skills-section .container {
-    margin-top: 5vh;
+    flex-direction: column;
+  }
+  body .parallax_wrapper .skills-section .container ul {
+    padding-left: 35%;
+  }
+  body .parallax_wrapper .skills-section .container .first-col,
+  body .parallax_wrapper .skills-section .container .second-col,
+  body .parallax_wrapper .skills-section .container .third-col,
+  body .parallax_wrapper .skills-section .container .fourth-col {
+    flex: auto;
   }
   body .parallax_wrapper .experience-section {
     margin-top: 45vh;
   }
   body .parallax_wrapper .projects-section {
-    margin-top: 80vh;
+    margin-top: 20vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding-left: 8vh;
+    padding-top: 3vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin: 1vw 0.1vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.2vh;
+  }
+  body .parallax_wrapper .contact-section {
+    margin-top: 0vh;
   }
 }
-@media (max-width: 821px) {
+@media only screen and (min-width: 810px) and (max-width: 850px) {
   body .parallax_wrapper .welcome-page {
     padding-top: 25vh;
   }
@@ -719,7 +802,7 @@ body .parallax_wrapper #group-2 {
     margin-top: 30vh;
   }
   body .parallax_wrapper .welcome-page .indicator {
-    margin-top: 28vh;
+    margin-top: 35vh;
   }
   body .parallax_wrapper #group-1 .mid_layer .about-title {
     font-size: 3vh;
@@ -799,25 +882,7 @@ body .parallax_wrapper #group-2 {
     width: 8%;
   }
 }
-@media (max-width: 769px) {
-  body .parallax_wrapper .projects-section .projects-container {
-    padding: 15vh;
-    padding-top: 3vw;
-  }
-  body .parallax_wrapper .projects-section .projects-container .flip {
-    margin: 2vh;
-  }
-  body .parallax_wrapper .experience-section {
-    margin-top: 50vh;
-  }
-  body .parallax_wrapper .projects-section {
-    margin-top: 40vh;
-  }
-  body .parallax_wrapper .contact-section {
-    margin-top: 70vh;
-  }
-}
-@media (max-width: 550px) {
+@media only screen and (min-width: 571px) and (max-width: 810px) {
   body .parallax_wrapper .welcome-page {
     padding-top: 30vh;
   }
@@ -828,7 +893,14 @@ body .parallax_wrapper #group-2 {
     margin-top: 30vh;
   }
   body .parallax_wrapper .welcome-page .indicator {
-    margin-top: 25vh;
+    margin-top: 35vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding: 15vh;
+    padding-top: 3vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin: 2vh;
   }
   body .parallax_wrapper #group-1 .mid_layer .about-title {
     font-size: 3vh;
@@ -841,7 +913,119 @@ body .parallax_wrapper #group-2 {
     font-size: 1.8vh;
   }
   body .parallax_wrapper .skills-section {
+    margin-top: 25vh;
+  }
+  body .parallax_wrapper .skills-section .skills-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .skills-section .container {
+    flex-direction: column;
+  }
+  body .parallax_wrapper .skills-section .container ul {
+    padding-left: 30%;
+  }
+  body .parallax_wrapper .skills-section .container .first-col,
+  body .parallax_wrapper .skills-section .container .second-col,
+  body .parallax_wrapper .skills-section .container .third-col,
+  body .parallax_wrapper .skills-section .container .fourth-col {
+    flex: auto;
+    margin-bottom: 15vh;
+  }
+  body .parallax_wrapper .experience-section {
+    margin-top: 100vh;
+  }
+  body .parallax_wrapper .experience-section .experience-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content h2 {
+    font-size: 3vw;
+  }
+  body .parallax_wrapper .experience-section .timeline .left {
+    left: -24.55vw;
+  }
+  body .parallax_wrapper .experience-section .timeline .left::after {
+    left: 48vw;
+  }
+  body .parallax_wrapper .experience-section .timeline .right {
+    left: 24.55vw;
+  }
+  body .parallax_wrapper .experience-section .timeline .right::after {
+    left: -1vw;
+  }
+  body .parallax_wrapper .projects-section {
+    margin-top: 50vh;
+  }
+  body .parallax_wrapper .projects-section .projects-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding: 0vh;
+    padding-top: 3vw;
+    padding-left: 2vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin-left: 2.5vh;
+    margin-top: 2vw;
+    width: 90vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .contact-section {
+    margin-top: 70vh;
+  }
+  body .parallax_wrapper .contact-section .contact-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div input,
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    width: 90vw;
+    padding: 5px;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    height: 20vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div .button {
+    width: 90vw;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div h2 {
+    font-size: 2vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div .social-media a {
+    width: 15%;
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 570px) {
+  body .parallax_wrapper .welcome-page {
+    padding-top: 30vh;
+  }
+  body .parallax_wrapper .welcome-page .typewriter {
+    font-size: 3.2vh;
+  }
+  body .parallax_wrapper .welcome-page .arrow {
+    margin-top: 30vh;
+  }
+  body .parallax_wrapper .welcome-page .indicator {
     margin-top: 35vh;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .about-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .left-div {
+    height: 45vh;
+    width: 100%;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .right-div .about-description {
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .skills-section {
+    margin-top: 25vh;
+  }
+  body .parallax_wrapper .skills-section .skills-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .skills-section .container {
+    flex-direction: column;
   }
   body .parallax_wrapper .skills-section .container ul {
     padding-left: 20%;
@@ -850,10 +1034,245 @@ body .parallax_wrapper #group-2 {
   body .parallax_wrapper .skills-section .container .second-col,
   body .parallax_wrapper .skills-section .container .third-col,
   body .parallax_wrapper .skills-section .container .fourth-col {
-    margin-bottom: 8vh;
+    flex: auto;
+    margin-bottom: 15vh;
   }
   body .parallax_wrapper .experience-section {
-    margin-top: 75vh;
+    margin-top: 100vh;
+  }
+  body .parallax_wrapper .experience-section .experience-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .experience-section .timeline::after {
+    left: 31px;
+  }
+  body .parallax_wrapper .experience-section .timeline .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  body .parallax_wrapper .experience-section .timeline .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content h5 {
+    font-size: 2vh;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content h6 {
+    font-size: 1.7vh;
+  }
+  body .parallax_wrapper .experience-section .timeline .left {
+    left: 0%;
+  }
+  body .parallax_wrapper .experience-section .timeline .left::after {
+    left: 18px;
+  }
+  body .parallax_wrapper .experience-section .timeline .right {
+    left: 0%;
+  }
+  body .parallax_wrapper .experience-section .timeline .right::after {
+    left: 18px;
+  }
+  body .parallax_wrapper .projects-section {
+    margin-top: 60vh;
+  }
+  body .parallax_wrapper .projects-section .projects-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding: 0vh;
+    padding-top: 3vw;
+    padding-left: 1vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin-left: 2.5vh;
+    margin-top: 2vw;
+    width: 90vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.6vh;
+  }
+  body .parallax_wrapper .contact-section {
+    margin-top: 110vh;
+  }
+  body .parallax_wrapper .contact-section .contact-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div input,
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    width: 90vw;
+    padding: 5px;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    height: 20vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div .button {
+    width: 90vw;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div h2 {
+    font-size: 2vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div .social-media a {
+    width: 15%;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 475px) {
+  body .parallax_wrapper .welcome-page {
+    padding-top: 30vh;
+  }
+  body .parallax_wrapper .welcome-page .typewriter {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .welcome-page .indicator {
+    margin-top: 30vh;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .about-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .right-div .about-description {
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .skills-section {
+    margin-top: 50vh;
+  }
+  body .parallax_wrapper .skills-section .skills-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .skills-section .container {
+    flex-direction: column;
+  }
+  body .parallax_wrapper .skills-section .container ul {
+    padding-left: 20%;
+  }
+  body .parallax_wrapper .skills-section .container .first-col,
+  body .parallax_wrapper .skills-section .container .second-col,
+  body .parallax_wrapper .skills-section .container .third-col,
+  body .parallax_wrapper .skills-section .container .fourth-col {
+    flex: auto;
+    margin-bottom: 15vh;
+  }
+  body .parallax_wrapper .experience-section {
+    margin-top: 110vh;
+  }
+  body .parallax_wrapper .experience-section .experience-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .experience-section .timeline::after {
+    left: 31px;
+  }
+  body .parallax_wrapper .experience-section .timeline .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  body .parallax_wrapper .experience-section .timeline .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content h5 {
+    font-size: 2vh;
+  }
+  body .parallax_wrapper .experience-section .timeline .container .content h6 {
+    font-size: 1.7vh;
+  }
+  body .parallax_wrapper .experience-section .timeline .left {
+    left: 0%;
+  }
+  body .parallax_wrapper .experience-section .timeline .left::after {
+    left: 18px;
+  }
+  body .parallax_wrapper .experience-section .timeline .right {
+    left: 0%;
+  }
+  body .parallax_wrapper .experience-section .timeline .right::after {
+    left: 18px;
+  }
+  body .parallax_wrapper .projects-section {
+    margin-top: 50vh;
+  }
+  body .parallax_wrapper .projects-section .projects-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .projects-section .projects-container {
+    padding: 0vh;
+    padding-top: 3vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip {
+    margin-left: 2.5vh;
+    margin-top: 2vw;
+    width: 90vw;
+  }
+  body .parallax_wrapper .projects-section .projects-container .flip .back p {
+    font-size: 1.5vh;
+  }
+  body .parallax_wrapper .contact-section {
+    margin-top: 100vh;
+  }
+  body .parallax_wrapper .contact-section .contact-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div input,
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    width: 90vw;
+    padding: 5px;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
+    height: 20vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .left-div .button {
+    width: 90vw;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div h2 {
+    font-size: 2vh;
+  }
+  body .parallax_wrapper .contact-section .contact-container .right-div .social-media a {
+    width: 15%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 376px) {
+  body .parallax_wrapper .welcome-page {
+    padding-top: 30vh;
+  }
+  body .parallax_wrapper .welcome-page .typewriter {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .welcome-page .indicator {
+    margin-top: 30vh;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .about-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper #group-1 .mid_layer .container .right-div .about-description {
+    font-size: 1.8vh;
+  }
+  body .parallax_wrapper .skills-section {
+    margin-top: 50vh;
+  }
+  body .parallax_wrapper .skills-section .skills-title {
+    font-size: 3vh;
+  }
+  body .parallax_wrapper .skills-section .container {
+    flex-direction: column;
+  }
+  body .parallax_wrapper .skills-section .container ul {
+    padding-left: 20%;
+  }
+  body .parallax_wrapper .skills-section .container .first-col,
+  body .parallax_wrapper .skills-section .container .second-col,
+  body .parallax_wrapper .skills-section .container .third-col,
+  body .parallax_wrapper .skills-section .container .fourth-col {
+    flex: auto;
+    margin-bottom: 15vh;
+  }
+  body .parallax_wrapper .experience-section {
+    margin-top: 110vh;
+  }
+  body .parallax_wrapper .experience-section .experience-title {
+    font-size: 3vh;
   }
   body .parallax_wrapper .experience-section .timeline::after {
     left: 31px;
@@ -903,72 +1322,14 @@ body .parallax_wrapper #group-2 {
     width: 90vw;
   }
   body .parallax_wrapper .projects-section .projects-container .flip .back p {
-    font-size: 1.5vh;
-  }
-  body .parallax_wrapper .contact-section {
-    margin-top: 80vh;
-  }
-  body .parallax_wrapper .contact-section .contact-container .left-div input,
-  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
-    width: 90vw;
-    padding: 5px;
-  }
-  body .parallax_wrapper .contact-section .contact-container .left-div textarea {
-    height: 20vh;
-  }
-  body .parallax_wrapper .contact-section .contact-container .left-div .button {
-    width: 90vw;
-  }
-  body .parallax_wrapper .contact-section .contact-container .right-div h2 {
-    font-size: 2vh;
-  }
-  body .parallax_wrapper .contact-section .contact-container .right-div .social-media a {
-    width: 15%;
-  }
-}
-@media (max-width: 376px) {
-  body .parallax_wrapper #group-1 .mid_layer .container .right-div .about-description {
-    font-size: 1.8vh;
-  }
-  body .parallax_wrapper .skills-section .container ul {
-    padding-left: 20%;
-  }
-  body .parallax_wrapper .skills-section .container .first-col,
-  body .parallax_wrapper .skills-section .container .second-col,
-  body .parallax_wrapper .skills-section .container .third-col,
-  body .parallax_wrapper .skills-section .container .fourth-col {
-    margin-bottom: 15vh;
-  }
-  body .parallax_wrapper .experience-section {
-    margin-top: 110vh;
-  }
-  body .parallax_wrapper .experience-section .timeline .container .content h5 {
-    font-size: 2vh;
-  }
-  body .parallax_wrapper .experience-section .timeline .container .content h6 {
-    font-size: 1.7vh;
-  }
-  body .parallax_wrapper .projects-section {
-    margin-top: 100vh;
-  }
-  body .parallax_wrapper .projects-section .projects-title {
-    font-size: 3vh;
-  }
-  body .parallax_wrapper .projects-section .projects-container {
-    padding: 0vh;
-    padding-top: 3vw;
-  }
-  body .parallax_wrapper .projects-section .projects-container .flip {
-    margin-left: 2.5vh;
-    margin-top: 2vw;
-    width: 90vw;
-  }
-  body .parallax_wrapper .projects-section .projects-container .flip .back p {
-    font-size: 1.9vh;
+    font-size: 1.6vh;
   }
   body .parallax_wrapper .contact-section {
     margin-top: 120vh;
   }
+  body .parallax_wrapper .contact-section .contact-title {
+    font-size: 3vh;
+  }
   body .parallax_wrapper .contact-section .contact-container .left-div input,
   body .parallax_wrapper .contact-section .contact-container .left-div textarea {
     width: 90vw;
@@ -985,5 +1346,6 @@ body .parallax_wrapper #group-2 {
   }
   body .parallax_wrapper .contact-section .contact-container .right-div .social-media a {
     width: 15%;
+    margin-right: 1vw;
   }
 }/*# sourceMappingURL=test.css.map */
